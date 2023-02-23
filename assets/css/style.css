@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000px;
+}
+
+#statistics-section{
+    margin-top: 20%;
+}
+
+.container{
+    display: flex;
+position: relative ;
+flex-direction: column;
+justify-content: space-evenly;
+width: 100%;
+background-image: url(/assets/images/code-academy-bg.jpeg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 330px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:40px;
+}
+
+.row .col3{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-bottom:15px;
+    color:white; 
+}
+
+.row h3{
+    z-index: 2;
+    text-align: center;
+    font-size: 21px;
+    color:white;
+    width: 34%;
+}
+
+.col3 h3{
+    text-align: center;
+    font-size:25px;
+    font-weight: 500;
+}
+
+.col3 h3 span{
+    font-weight: 800;
+    font-size: 70px;  
+    text-align: center;
+}
+
+
+
+/* .row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:40px;
+}
+
+.row .statistics{
+    margin-top: 70px;
+}
+
+.row .statistics ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.row .statistics ul li{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    color:#f4f5f8;
+    font-size: 35px;
+    font-family: 'visby cf',sans-serif;
+}
+
+.row .statistics ul li span{
+    font-size: 70px;
+} */
